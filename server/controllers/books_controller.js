@@ -10,9 +10,9 @@ module.exports = {
         let book = {
             id: id,
             title: title,
-            author: author,
+            author: author, 
         }
-        books.push(book)
+        books.push(book);
         id++;
         res.status(200).send(books);
     },
